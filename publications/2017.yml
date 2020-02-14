@@ -1,0 +1,27 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2017
+  img: emnlp2017
+  title: "Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data"
+  authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing.
+  doc-url: https://www.aclweb.org/anthology/D17-1008.pdf
+  venue: conference\
+  abstract: >
+     Annotating large numbers of sentences with senses is the heaviest requirement of current Word Sense Disambiguation. We present Train-O-Matic, a language-independent method for generating millions of sense-annotated training instances for virtually all meanings of words in a language’s vocabulary. The approach is fully automatic: no human intervention is required and the only type of human knowledge used is a WordNet-like resource. Train-O-Matic achieves consistently state-of-the-art performance across gold standard datasets and languages, while at the same time removing the burden of manual annotation. All the training data is available for research purposes at http://trainomatic.org.
+  bibtex: >
+    @inproceedings{pasini-navigli-2017-train,
+        title = "Train-O-{M}atic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data",
+        author = "Pasini, Tommaso  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+        month = sep,
+        year = "2017",
+        address = "Copenhagen, Denmark",
+        publisher = "Association for Computational Linguistics",
+        url = "https://www.aclweb.org/anthology/D17-1008",
+        doi = "10.18653/v1/D17-1008",
+        pages = "78--88",
+    }

@@ -1,0 +1,28 @@
+-
+  layout: article
+  paper-type: article
+  selected: y
+  year: "2016"
+  img: aij2016
+  title: "MultiWiBi: The multilingual Wikipedia bitaxonomy project"
+  authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  journal: "Artificial Intelligence"
+  journal-url: "https://www.sciencedirect.com/science/article/abs/pii/S0004370216300959"
+  abstract: >
+    We present MultiWiBi, an approach to the automatic creation of two integrated taxonomies for Wikipedia pages and categories written
+    in different languages. In order to create both taxonomies in an arbitrary language, we first build them in English and then project
+    the two taxonomies to other languages automatically, without the help of language-specific resources or tools. The process crucially
+    leverages a novel algorithm which exploits the information available in either one of the taxonomies to reinforce the creation of the
+    other taxonomy. Our experiments show that the taxonomical information in MultiWiBi is characterized by a higher quality and coverage
+    than state-of-the-art resources like DBpedia, YAGO, MENTA, WikiNet, LHD and WikiTaxonomy, also across languages. MultiWiBi is
+    available online at http://wibitaxonomy.org/multiwibi.
+  bibtex: >
+   @Article{flati2016multiwibi,
+     title={MultiWiBi: The multilingual Wikipedia bitaxonomy project},
+     author={Flati, Tiziano and Vannella, Daniele and Pasini, Tommaso and Navigli, Roberto},
+     journal={Artificial Intelligence},
+     volume={241},
+     pages={66--102},
+     year={2016},
+     publisher={Elsevier}
+   }

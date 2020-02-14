@@ -1,0 +1,277 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: aaai2020
+  title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  doc-url: https://pasinit.github.io/papers/scarlini_etal_aaai2020.pdf # https://www.aclweb.org/anthology/P19-1069.pdf
+  venue: conference\
+  abstract: >
+    Contextual representations of words derived by neural language models have proven to effectively encode the subtle distinctions
+    that might occur between different meanings of the same word. However, these representations are not tied to a semantic network,
+    hence they leave the word meanings implicit and thereby neglect the information that can be derived from the knowledge base itself.
+    In this paper, we propose SensEmBERT, a knowledge-based approach that brings together the expressive power of language modelling and
+    the vast amount of knowledge contained in a semantic network to produce high-quality latent semantic representations of word meanings in multiple languages.
+    Our vectors lie in a space comparable with that of contextualized word embeddings, thus allowing a word occurrence to be easily linked to
+    its meaning by applying a simple nearest neighbour approach.
+    We show that, whilst not relying on manual semantic annotations, SensEmBERT is able to either achieve or surpass state-of-the-art
+    results attained by most of the supervised neural approaches on the English Word Sense Disambiguation task.
+    When scaling to other languages, our representations prove to be equally effective as their English counterpart and
+    outperform the existing state of the art on all the Word Sense Disambiguation multilingual datasets.
+    The embeddings are released in five different languages at http://sensembert.org.
+  bibtex: |
+    @inproceedings{scarlini-etal-2020,<br/>
+        title = "{{SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation}}",<br/>
+        author = "Scarlini, Bianca and Pasini, Tommaso and Navigli, Roberto",<br/>
+        booktitle = "Proceedings of AAAI",<br/>
+        month = Feb,<br/>
+        year = "2020",<br/>
+        address = "New York, USA",<br/>
+        publisher = "AAAI"<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: aaai2020
+  title: "CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation"
+  authors: "Caterina Lacerra, Michele Bevilacqua, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  doc-url: https://pasinit.github.io/papers/lacerra_etal_aaai2020.pdf #https://www.aclweb.org/anthology/P19-1069.pdf
+  venue: conference\
+  abstract: >
+    Word Sense Disambiguation (WSD) is the task of associating a word in context with one of its meanings. While many
+    works in the past have focused on raising the state of the art, none has even come close to achieving an F-score
+    in the 80% ballpark when using WordNet as its sense inventory.
+    We contend that one of the main reasons for this failure is the excessively fine granularity of this inventory,
+    resulting in senses that are hard to differentiate between, even for an experienced human annotator.
+    In this paper we cope with this long-standing problem by introducing Coarse Sense Inventory (CSI),
+    obtained by linking WordNet concepts to a new set of 45 labels. The results show that the coarse granularity of CSI
+    leads a WSD model to achieve 85.9% F1, while maintaining a high expressive power. Our set of labels also exhibits
+    ease of use in tagging and a descriptiveness that other coarse inventories lack, as demonstrated in two annotation
+    tasks which we performed. Moreover, a few-shot evaluation proves that the class-based nature of CSI allows the model
+    to generalise over unseen or under-represented words.
+  bibtex: >
+    @inproceedings{lacerra-etal-2020,<br/>
+        title = "{{CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation}}",<br/>
+        author = "Lacerra, Caterina and Bevilacqua, Michele and Pasini, Tommaso  and
+          Navigli, Roberto",<br/>
+        booktitle = "Proceedings of AAAI",<br/>
+        month = Feb,<br/>
+        year = "2020",<br/>
+        address = "New York, USA",<br/>
+        publisher = "AAAI"<br/>
+    }
+-
+  layout: article
+  paper-type: article
+  selected: y
+  year: "2020"
+  img: aij2020
+  title: "Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort"
+  authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
+  journal: "Artificial Intelligence Journal"
+  journal-url: https://doi.org/10.1016/j.artint.2019.103215
+  bibtex: >
+    @inproceedings{pasininavigli:19,
+        title={Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort},
+        author{Pasini, Tommaso and Navigli, Roberto},
+        journal={Acceptance at Artificial Intelligence Journal subject to Major Revision},
+        year={2019}
+    }
+  abstract: >
+    Word Sense Disambiguation (WSD) is the task of associating the correct meaning with a word in a given context. WSD provides explicit semantic information that is beneficial to several down stream applications, such as: question answering, semantic parsing and hypernym extraction. Unfortunately, WSD suffers from the well-known knowledge acquisition bottleneck problem: it is very expensive, in terms of both time and money, to acquire semantic annotations for a large number of sentences.
+    To address this blocking issue we present Train-O-Matic, a knowledge-based and language-independent approach that is able to provide millions of training instances annotated automatically with word meanings. The approach is fully automatic, i.e., no human intervention is required, and the only type of human knowledge used is a task-independent WordNet-like resource.
+    Moreover, as the sense distribution in the training set is pivotal to boosting the performance of WSD systems, we also present two unsupervised and language-independent methods that automatically induce a sense distribution when given a simple corpus of sentences. We show that when the learned distributions are taken into account for generating the training sets, the performance of supervised methods is further enhanced.
+    Experiments have proven that Train-O-Matic on its own, and also coupled with word sense distribution learning methods, lead a supervised system to achieve state-of-the-art performance consistently across gold standard datasets and languages. Importantly, we show how our sense distribution learning techniques aid Train-O-Matic to scale well over domains, without any extra human effort.
+    To encourage future research, we release all the training sets in 5 different languages and the sense distributions for each domain of SemEval 2013 and SemEval 2015 at http://trainomatic.org.
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2019
+  img: acl2019
+  title: "Just “OneSeC” for Producing Multilingual Sense-Annotated Data"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics.
+  doc-url: https://www.aclweb.org/anthology/P19-1069.pdf
+  venue: conference
+  abstract: >
+    The well-known problem of knowledge acquisition is one of the biggest issues in Word Sense Disambiguation (WSD), where annotated data are still scarce in English and almost absent in other languages. In this paper we formulate the assumption of One Sense per Wikipedia Category and present OneSeC, a language-independent method for the automatic extraction of hundreds of thousands of sentences in which a target word is tagged with its meaning. Our automatically-generated data consistently lead a supervised WSD model to state-of-the-art performance when compared with other automatic and semi-automatic methods. Moreover, our approach outperforms its competitors on multilingual and domain-specific settings, where it beats the existing state of the art on all languages and most domains. All the training data are available for research purposes at http://trainomatic.org/onesec.
+  bibtex: >
+    @inproceedings{scarlini-etal-2019-just,<br/>
+        title = "Just {``}{O}ne{S}e{C}{''} for Producing Multilingual Sense-Annotated Data",<br/>
+        author = "Scarlini, Bianca  and
+          Pasini, Tommaso  and
+          Navigli, Roberto",<br/>
+        booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",<br/>
+        month = jul,<br/>
+        year = "2019",<br/>
+        address = "Florence, Italy",<br/>
+        publisher = "Association for Computational Linguistics",<br/>
+        url = "https://www.aclweb.org/anthology/P19-1069",<br/>
+        doi = "10.18653/v1/P19-1069",<br/>
+        pages = "699--709"<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2017
+  img: emnlp2017
+  title: "Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data"
+  authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing.
+  doc-url: https://www.aclweb.org/anthology/D17-1008.pdf
+  venue: conference\
+  abstract: >
+     Annotating large numbers of sentences with senses is the heaviest requirement of current Word Sense Disambiguation. We present Train-O-Matic, a language-independent method for generating millions of sense-annotated training instances for virtually all meanings of words in a language’s vocabulary. The approach is fully automatic: no human intervention is required and the only type of human knowledge used is a WordNet-like resource. Train-O-Matic achieves consistently state-of-the-art performance across gold standard datasets and languages, while at the same time removing the burden of manual annotation. All the training data is available for research purposes at http://trainomatic.org.
+  bibtex: >
+    @inproceedings{pasini-navigli-2017-train,<br/>
+        title = "Train-O-{M}atic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data",<br/>
+        author = "Pasini, Tommaso  and
+          Navigli, Roberto",<br/>
+        booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",<br/>
+        month = sep,<br/>
+        year = "2017",<br/>
+        address = "Copenhagen, Denmark",<br/>
+        publisher = "Association for Computational Linguistics",<br/>
+        url = "https://www.aclweb.org/anthology/D17-1008",<br/>
+        doi = "10.18653/v1/D17-1008",<br/>
+        pages = "78--88"<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2014
+  img: acl2014
+  title: "Two Is Bigger (and Better) Than One: the Wikipedia Bitaxonomy Project."
+  authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of the 52th Annual Meeting of the Association for Computational Linguistics.
+  doc-url: https://www.aclweb.org/anthology/P14-1089.pdf
+  venue: conference\
+  abstract: >
+    We present WiBi, an approach to the
+    automatic creation of a bitaxonomy for
+    Wikipedia, that is, an integrated taxonomy of Wikipage pages and categories.
+    We leverage the information available in
+    either one of the taxonomies to reinforce
+    the creation of the other taxonomy. Our
+    experiments show higher quality and coverage than state-of-the-art resources like
+    DBpedia, YAGO, MENTA, WikiNet and
+    WikiTaxonomy. WiBi is available at
+    http://wibitaxonomy.org.
+  bibtex: >
+    @inproceedings{flati-etal-2014-two,<br/>
+        title = "Two Is Bigger (and Better) Than One: the {W}ikipedia Bitaxonomy Project",<br/>
+        author = "Flati, Tiziano  and
+          Vannella, Daniele  and
+          Pasini, Tommaso  and
+          Navigli, Roberto",<br/>
+        booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",<br/>
+        month = jun,<br/>
+        year = "2014",<br/>
+        address = "Baltimore, Maryland",<br/>
+        publisher = "Association for Computational Linguistics",<br/>
+        url = "https://www.aclweb.org/anthology/P14-1089",<br/>
+        doi = "10.3115/v1/P14-1089",<br/>
+        pages = "945--955"<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  img: acl2018
+  title: "SemEval-2018 task 9: Hypernym discovery."
+  authors: "Jose Camacho-Collados, Claudio Delli Bovi, Luis Espinosa-Anke, Sergio Oramas, <strong>Tommaso Pasini</strong>, Enrico Santus, Vered Shwartz, Roberto Navigli, Horacio Saggio"
+  booktitle: Proceedings of the 12th International Workshop on Semantic Evaluation (SemEval-2018).
+  doc-url: https://repositori.upf.edu/handle/10230/35249
+  venue: conference\
+  abstract: >
+     Knowing the correct distribution of senses within a corpus can potentially boost the performance of Word Sense Disambiguation (WSD) systems by many points. We present two fully automatic and language-independent methods for computing the distribution of senses given a raw corpus of sentences. Intrinsic and extrinsic evaluations show that our methods outperform the current state of the art in sense distribution learning and the strongest baselines for the most frequent sense in multiple languages and on domain-specific test sets. Our sense distributions are available at http://trainomatic.org.
+  bibtex: >
+    @inproceedings{pasini2018two,
+      title={Two knowledge-based methods for high-performance sense distribution learning},<br/>
+      author={Pasini, Tommaso and Navigli, Roberto},<br/>
+      booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},<br/>
+      year={2018}<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  img: aaai2018
+  title: "Two Knowledge-based Methods for High-Performance Sense Distribution Learning"
+  authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of Thirty-Second AAAI Conference on Artificial Intelligence.
+  doc-url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16406/16090
+  venue: conference\
+  abstract: >
+     Knowing the correct distribution of senses within a corpus can potentially boost the performance of Word Sense Disambiguation (WSD) systems by many points. We present two fully automatic and language-independent methods for computing the distribution of senses given a raw corpus of sentences. Intrinsic and extrinsic evaluations show that our methods outperform the current state of the art in sense distribution learning and the strongest baselines for the most frequent sense in multiple languages and on domain-specific test sets. Our sense distributions are available at http://trainomatic.org.
+  bibtex: >
+    @inproceedings{pasini2018two,<br/>
+      title={Two knowledge-based methods for high-performance sense distribution learning},<br/>
+      author={Pasini, Tommaso and Navigli, Roberto},<br/>
+      booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},<br/>
+      year={2018}<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2018
+  img: aaai2018
+  title: "Huge Automatically Extracted Training Sets for Multilingual Word Sense Disambiguation"
+  authors: "<strong>Tommaso Pasini</strong>, Francesco Maria Elia and Roberto Navigli"
+  booktitle: Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018).
+  doc-url: https://www.aclweb.org/anthology/L18-1268/
+  venue: conference\
+  abstract: >
+    We release to the community six large-scale sense-annotated datasets in multiple language to pave the way for supervised multilingual
+    Word Sense Disambiguation. Our datasets cover all the nouns in the English WordNet and their translations in other languages for a
+    total of millions of sense-tagged sentences . Experiments prove that these corpora can be effectively used as training sets for supervised
+    WSD systems, surpassing the state of the art for low-resourced languages and providing competitive results for English, where manually
+    annotated training sets are accessible. The data is available at trainomatic.org.
+  bibtex: >
+    @inproceedings{pasini-etal-2018-huge,<br/>
+        title = "Huge Automatically Extracted Training-Sets for Multilingual Word {S}ense{D}isambiguation",<br/>
+        author = "Pasini, Tommaso  and
+          Elia, Francesco  and
+          Navigli, Roberto",<br/>
+        booktitle = "Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)",<br/>
+        month = may,<br/>
+        year = "2018",<br/>
+        address = "Miyazaki, Japan",<br/>
+        publisher = "European Language Resources Association (ELRA)",<br/>
+        url = "https://www.aclweb.org/anthology/L18-1268",<br/>
+    }
+-
+  layout: article
+  paper-type: article
+  selected: y
+  year: "2016"
+  img: aij2016
+  title: "MultiWiBi: The multilingual Wikipedia bitaxonomy project"
+  authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  journal: "Artificial Intelligence"
+  journal-url: "https://www.sciencedirect.com/science/article/abs/pii/S0004370216300959"
+  abstract: >
+    We present MultiWiBi, an approach to the automatic creation of two integrated taxonomies for Wikipedia pages and categories written in different languages. In order to create both taxonomies in an arbitrary language, we first build them in English and then project the two taxonomies to other languages automatically, without the help of language-specific resources or tools. The process crucially leverages a novel algorithm which exploits the information available in either one of the taxonomies to reinforce the creation of the other taxonomy. Our experiments show that the taxonomical information in MultiWiBi is characterized by a higher quality and coverage than state-of-the-art resources like DBpedia, YAGO, MENTA, WikiNet, LHD and WikiTaxonomy, also across languages. MultiWiBi is available online at http://wibitaxonomy.org/multiwibi.
+  bibtex: >
+   @Article{flati2016multiwibi,<br/>
+     title={MultiWiBi: The multilingual Wikipedia bitaxonomy project},<br/>
+     author={Flati, Tiziano and Vannella, Daniele and Pasini, Tommaso and Navigli, Roberto},<br/>
+     journal={Artificial Intelligence},<br/>
+     volume={241},<br/>
+     pages={66--102},<br/>
+     year={2016},<br/>
+     publisher={Elsevier}<br/>
+   }

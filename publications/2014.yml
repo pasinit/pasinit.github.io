@@ -1,0 +1,38 @@
+-
+ layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2014
+  img: acl2014
+  title: "Two Is Bigger (and Better) Than One: the Wikipedia Bitaxonomy Project."
+  authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini> and Roberto Navigli"
+  booktitle: Proceedings of the 52th Annual Meeting of the Association for Computational Linguistics.
+  doc-url: https://www.aclweb.org/anthology/P14-1089.pdf
+  venue: conference\
+  abstract: >
+    We present WiBi, an approach to the
+    automatic creation of a bitaxonomy for
+    Wikipedia, that is, an integrated taxonomy of Wikipage pages and categories.
+    We leverage the information available in
+    either one of the taxonomies to reinforce
+    the creation of the other taxonomy. Our
+    experiments show higher quality and coverage than state-of-the-art resources like
+    DBpedia, YAGO, MENTA, WikiNet and
+    WikiTaxonomy. WiBi is available at
+    http://wibitaxonomy.org.
+  bibtex: >
+    @inproceedings{flati-etal-2014-two,
+        title = "Two Is Bigger (and Better) Than One: the {W}ikipedia Bitaxonomy Project",
+        author = "Flati, Tiziano  and
+          Vannella, Daniele  and
+          Pasini, Tommaso  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        month = jun,
+        year = "2014",
+        address = "Baltimore, Maryland",
+        publisher = "Association for Computational Linguistics",
+        url = "https://www.aclweb.org/anthology/P14-1089",
+        doi = "10.3115/v1/P14-1089",
+        pages = "945--955",
+    }
