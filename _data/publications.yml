@@ -77,11 +77,11 @@
   journal: "Artificial Intelligence Journal"
   journal-url: https://doi.org/10.1016/j.artint.2019.103215
   bibtex: >
-    @inproceedings{pasininavigli:19,
-        title={Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort},
-        author{Pasini, Tommaso and Navigli, Roberto},
-        journal={Acceptance at Artificial Intelligence Journal subject to Major Revision},
-        year={2019}
+    @inproceedings{pasininavigli:19,<br/>
+        title={Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort},<br/>
+        author{Pasini, Tommaso and Navigli, Roberto},<br/>
+        journal={Acceptance at Artificial Intelligence Journal subject to Major Revision},<br/>
+        year={2019}<br/>
     }
   abstract: >
     Word Sense Disambiguation (WSD) is the task of associating the correct meaning with a word in a given context. WSD provides explicit semantic information that is beneficial to several down stream applications, such as: question answering, semantic parsing and hypernym extraction. Unfortunately, WSD suffers from the well-known knowledge acquisition bottleneck problem: it is very expensive, in terms of both time and money, to acquire semantic annotations for a large number of sentences.
