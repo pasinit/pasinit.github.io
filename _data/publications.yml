@@ -197,11 +197,21 @@
   abstract: >
      Knowing the correct distribution of senses within a corpus can potentially boost the performance of Word Sense Disambiguation (WSD) systems by many points. We present two fully automatic and language-independent methods for computing the distribution of senses given a raw corpus of sentences. Intrinsic and extrinsic evaluations show that our methods outperform the current state of the art in sense distribution learning and the strongest baselines for the most frequent sense in multiple languages and on domain-specific test sets. Our sense distributions are available at http://trainomatic.org.
   bibtex: >
-    @inproceedings{pasini2018two,
-      title={Two knowledge-based methods for high-performance sense distribution learning},<br/>
-      author={Pasini, Tommaso and Navigli, Roberto},<br/>
-      booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},<br/>
-      year={2018}<br/>
+    @inproceedings{camacho-collados-etal-2018-semeval,
+        title = "{S}em{E}val-2018 Task 9: Hypernym Discovery",<br/>
+        author = "Camacho-Collados, Jose  and
+          Delli Bovi, Claudio  and
+          Espinosa-Anke, Luis  and
+          Oramas, Sergio  and
+          Pasini, Tommaso  and
+          Santus, Enrico  and
+          Shwartz, Vered  and
+          Navigli, Roberto  and
+          Saggion, Horacio",
+        booktitle = "Proceedings of The 12th International Workshop on Semantic Evaluation",<br/>
+        year = "2018", <br/>
+        doi = "10.18653/v1/S18-1115",<br/>
+        pages = "712--724",<br/>
     }
 -
   layout: paper
