@@ -77,7 +77,7 @@
   journal: "Artificial Intelligence Journal"
   journal-url: https://doi.org/10.1016/j.artint.2019.103215
   bibtex: >
-      @article{pasini2020train,</br>
+    @article{pasini2020train,</br>
         title = "{{Train-O-Matic: Supervised Word Sense Disambiguation with no (manual) effort}}",</br>
         author = "{Pasini, Tommaso and Navigli, Roberto}",</br>
         journal = "{Artificial Intelligence}",</br>
