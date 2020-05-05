@@ -75,7 +75,7 @@
   img: LREC2020
   title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
-  booktitle: Proceedings of AAAI.
+  booktitle: Proceedings of LREC 2020.
   doc-url: http://trainomatic.org/data/LREC_2020_Scarlinietal.pdf
   venue: conference\
   abstract: >
@@ -107,7 +107,7 @@
   img: LREC2020
   title: "A Short Survey on Sense-Annotated Corpora"
   authors: "<strong>Tommaso Pasini</strong> and Jose Camacho-Collados"
-  booktitle: Proceedings of AAAI.
+  booktitle: Proceedings of LREC 2020.
   doc-url: https://arxiv.org/abs/1802.04744
   venue: conference\
   abstract: >
