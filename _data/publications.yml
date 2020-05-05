@@ -1,4 +1,5 @@
--layout: paper
+-
+  layout: paper
   paper-type: inproceedings
   selected: y
   year: 2020
