@@ -35,7 +35,7 @@
 -
   layout: paper
   paper-type: inproceedings
-  selected: n
+  selected: y
   year: 2020
   img: LREC2020
   title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
