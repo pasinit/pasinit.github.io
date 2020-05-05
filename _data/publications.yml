@@ -32,14 +32,69 @@
         address = {Virtual},<br/>
         publisher = {Association for Computational Linguistics}<br/>
     }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: n
+  year: 2020
+  img: LREC2020
+  title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  doc-url: http://trainomatic.org/data/LREC_2020_Scarlinietal.pdf
+  venue: conference\
+  abstract: >
+    The knowledge acquisition bottleneck problem dramatically hampers the creation of sense-annotated
+    data for Word Sense Disambiguation (WSD). Sense-annotated data are scarce for English and almost absent
+    for other languages. This limits the range of action of deeplearning approaches, which today are at the
+    base of any NLP task and are hungry for data. We mitigate this issue and encourage further research in
+    multilingual WSD by releasing to the NLP community five large datasets annotated with word senses in five
+    different languages, namely, English, French, Italian, German and Spanish, and 5 distinct datasets in
+    English, each for a different semantic domain. We show that supervised WSD models trained on our data
+    attain higher performance than when trained on other automaticallycreated corpora. We release all our
+    data containing more than 15 million annotated instances in 5 different languages at http://trainomatic.org/onesec.
+  bibtex: |
+    @inproceedings{scarlini-etal-2020,<br/>
+        title = {{Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains}},<br/>
+        author = "Scarlini, Bianca and Pasini, Tommaso and Navigli, Roberto",<br/>
+        booktitle = "Proceedings of LREC",<br/>
+        month = May,<br/>
+        year = "2020",<br/>
+        address = "Virtual",<br/>
+        publisher = "LRE"<br/>
+    }
 
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: n
+  year: 2020
+  img: LREC2020
+  title: "A Short Survey on Sense-Annotated Corpora"
+  authors: "<strong>Tommaso Pasini</strong> and Jose Camacho-Collados"
+  booktitle: Proceedings of AAAI.
+  doc-url: https://arxiv.org/abs/1802.04744
+  venue: conference\
+  abstract: >
+    Large sense-annotated datasets are increasingly necessary for training deep supervised systems in Word Sense Disambiguation. However, gathering high-quality sense-annotated data for as many instances as possible is a laborious and expensive task. This has led to the proliferation of automatic and semi-automatic methods for overcoming the so-called knowledge-acquisition bottleneck. In this short survey we present an overview of sense-annotated corpora, annotated either manually- or (semi)automatically, that are currently available for different languages and featuring distinct lexical resources as inventory of senses, i.e. WordNet, Wikipedia, BabelNet. Furthermore, we provide the reader with general statistics of each dataset and an analysis of their specific features.
+  bibtex: |
+    @inproceedings{pasini-and-camachocollados-2020,<br/>
+        title = {{A Short Survey on Sense-Annotated Corpora}},<br/>
+        author = {Pasini, Tommaso and Camacho-Collados, Jose},<br/>
+        booktitle = "Proceedings of LREC",<br/>
+        month = May,<br/>
+        year = "2020",<br/>
+        address = "Virtual",<br/>
+        publisher = "LRE"<br/>
+    }
+    
 -
   layout: paper
   paper-type: inproceedings
   selected: y
   year: 2020
   img: aaai2020
-  title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
+  title: "SensEmBERT: Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
   booktitle: Proceedings of AAAI.
   doc-url: https://pasinit.github.io/papers/scarlini_etal_aaai2020.pdf # https://www.aclweb.org/anthology/P19-1069.pdf
