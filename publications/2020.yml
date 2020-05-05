@@ -2,35 +2,70 @@
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: 2020
-  img: acl2020
-  title: "CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages"
-  authors: "<strong>Tommaso Pasini</strong>, Federico Scozzafava and Bianca Scarlini"
-  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.
-  doc-url: https://www.researchgate.net/publication/341151563_CluBERT_A_Cluster-Based_Approach_for_Learning_Sense_Distributions_in_Multiple_Languages
+  year: 2019
+  img: acl2019
+  title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  #doc-url: https://www.aclweb.org/anthology/P19-1069.pdf
   venue: conference\
   abstract: >
-    Knowing the Most Frequent Sense (MFS) of a word has been proved to help Word Sense Disambiguation (WSD)
-    models significantly. However, the scarcity of sense-annotated data makes it difficult to induce a reliable
-    and high-coverage distribution of the meanings in a language vocabulary.
-    To address this issue, in this paper we present CluBERT, an automatic and multilingual approach for inducing
-    the distributions of word senses from a corpus of raw sentences.
-    Our experiments show that CluBERT learns distributions over English senses that are of higher quality than
-    those extracted by alternative approaches.
-    When used to induce the MFS of a lemma, CluBERT attains state-of-the-art results on the English Word Sense
-    Disambiguation tasks and helps to improve the disambiguation performance of two off-the-shelf WSD models.
-    Moreover, our distributions also prove to be effective in other languages, beating all their alternatives
-    for computing the MFS on the multilingual WSD tasks.
-    We release our sense distributions in five different languages at https://github.com/SapienzaNLP/clubert.
-  bibtex: |
-    @inproceedings{pasini-etal-2020,<br/>
-        title = {{CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages}},<br/>
-        author = {Pasini, Tommaso and Scozzafava, Federico, and Scarlini, Bianca},<br/>
-        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},<br/>
-        year = {2020},<br/>
-        month = {Jul}, <br/>
-        address = {Virtual},<br/>
-        publisher = {Association for Computational Linguistics}<br/>
+    Contextual representations of words derived by neural language models have proven to effectively encode the subtle distinctions
+    that might occur between different meanings of the same word. However, these representations are not tied to a semantic network,
+    hence they leave the word meanings implicit and thereby neglect the information that can be derived from the knowledge base itself.
+    In this paper, we propose SensEmBERT, a knowledge-based approach that brings together the expressive power of language modelling and
+    the vast amount of knowledge contained in a semantic network to produce high-quality latent semantic representations of word meanings in multiple languages.
+    Our vectors lie in a space comparable with that of contextualized word embeddings, thus allowing a word occurrence to be easily linked to
+    its meaning by applying a simple nearest neighbour approach.
+    We show that, whilst not relying on manual semantic annotations, SensEmBERT is able to either achieve or surpass state-of-the-art
+    results attained by most of the supervised neural approaches on the English Word Sense Disambiguation task.
+    When scaling to other languages, our representations prove to be equally effective as their English counterpart and
+    outperform the existing state of the art on all the Word Sense Disambiguation multilingual datasets.
+    The embeddings are released in five different languages at http://sensembert.org.
+  bibtex: >
+    @inproceedings{scarlini-etal-2020,
+        title = "{{SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation}}",
+        author = "Scarlini, Bianca  and
+          Pasini, Tommaso  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of AAAI",
+        month = Feb,
+        year = "2020",
+        address = "New York, USA",
+        publisher = "AAAI",
+    }
+-layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: acl2020
+  title: "CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation"
+  authors: "Caterina Lacerra, Michele Bevilacqua, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  #doc-url: https://www.aclweb.org/anthology/P19-1069.pdf
+  venue: conference\
+  abstract: >
+    Word Sense Disambiguation (WSD) is the task of associating a word in context with one of its meanings. While many
+    works in the past have focused on raising the state of the art, none has even come close to achieving an F-score
+    in the 80% ballpark when using WordNet as its sense inventory.
+    We contend that one of the main reasons for this failure is the excessively fine granularity of this inventory,
+    resulting in senses that are hard to differentiate between, even for an experienced human annotator.
+    In this paper we cope with this long-standing problem by introducing Coarse Sense Inventory (CSI),
+    obtained by linking WordNet concepts to a new set of 45 labels. The results show that the coarse granularity of CSI
+    leads a WSD model to achieve 85.9% F1, while maintaining a high expressive power. Our set of labels also exhibits
+    ease of use in tagging and a descriptiveness that other coarse inventories lack, as demonstrated in two annotation
+    tasks which we performed. Moreover, a few-shot evaluation proves that the class-based nature of CSI allows the model
+    to generalise over unseen or under-represented words.
+  bibtex: >
+    @inproceedings{lacerra-etal-2020,
+        title = "{{CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation}}",
+        author = "Lacerra, Caterina and Bevilacqua, Michele and Pasini, Tommaso  and
+          Navigli, Roberto",
+        booktitle = "Proceedings of AAAI",
+        month = Feb,
+        year = "2020",
+        address = "New York, USA",
+        publisher = "AAAI",
     }
 -
   layout: paper
@@ -87,73 +122,37 @@
         address = "Virtual",<br/>
         publisher = "LRE"<br/>
     }
-
 -
   layout: paper
   paper-type: inproceedings
   selected: y
-  year: 2019
-  img: acl2019
-  title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
-  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
-  booktitle: Proceedings of AAAI.
-  #doc-url: https://www.aclweb.org/anthology/P19-1069.pdf
+  year: 2020
+  img: acl2020
+  title: "CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages"
+  authors: "<strong>Tommaso Pasini</strong>, Federico Scozzafava and Bianca Scarlini"
+  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.
+  doc-url: https://www.researchgate.net/publication/341151563_CluBERT_A_Cluster-Based_Approach_for_Learning_Sense_Distributions_in_Multiple_Languages
   venue: conference\
   abstract: >
-    Contextual representations of words derived by neural language models have proven to effectively encode the subtle distinctions
-    that might occur between different meanings of the same word. However, these representations are not tied to a semantic network,
-    hence they leave the word meanings implicit and thereby neglect the information that can be derived from the knowledge base itself.
-    In this paper, we propose SensEmBERT, a knowledge-based approach that brings together the expressive power of language modelling and
-    the vast amount of knowledge contained in a semantic network to produce high-quality latent semantic representations of word meanings in multiple languages.
-    Our vectors lie in a space comparable with that of contextualized word embeddings, thus allowing a word occurrence to be easily linked to
-    its meaning by applying a simple nearest neighbour approach.
-    We show that, whilst not relying on manual semantic annotations, SensEmBERT is able to either achieve or surpass state-of-the-art
-    results attained by most of the supervised neural approaches on the English Word Sense Disambiguation task.
-    When scaling to other languages, our representations prove to be equally effective as their English counterpart and
-    outperform the existing state of the art on all the Word Sense Disambiguation multilingual datasets.
-    The embeddings are released in five different languages at http://sensembert.org.
-  bibtex: >
-    @inproceedings{scarlini-etal-2020,
-        title = "{{SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation}}",
-        author = "Scarlini, Bianca  and
-          Pasini, Tommaso  and
-          Navigli, Roberto",
-        booktitle = "Proceedings of AAAI",
-        month = Feb,
-        year = "2020",
-        address = "New York, USA",
-        publisher = "AAAI",
-    }
--layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2019
-  img: acl2019
-  title: "CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation"
-  authors: "Caterina Lacerra, Michele Bevilacqua, <strong>Tommaso Pasini</strong> and Roberto Navigli"
-  booktitle: Proceedings of AAAI.
-  #doc-url: https://www.aclweb.org/anthology/P19-1069.pdf
-  venue: conference\
-  abstract: >
-    Word Sense Disambiguation (WSD) is the task of associating a word in context with one of its meanings. While many
-    works in the past have focused on raising the state of the art, none has even come close to achieving an F-score
-    in the 80% ballpark when using WordNet as its sense inventory.
-    We contend that one of the main reasons for this failure is the excessively fine granularity of this inventory,
-    resulting in senses that are hard to differentiate between, even for an experienced human annotator.
-    In this paper we cope with this long-standing problem by introducing Coarse Sense Inventory (CSI),
-    obtained by linking WordNet concepts to a new set of 45 labels. The results show that the coarse granularity of CSI
-    leads a WSD model to achieve 85.9% F1, while maintaining a high expressive power. Our set of labels also exhibits
-    ease of use in tagging and a descriptiveness that other coarse inventories lack, as demonstrated in two annotation
-    tasks which we performed. Moreover, a few-shot evaluation proves that the class-based nature of CSI allows the model
-    to generalise over unseen or under-represented words.
-  bibtex: >
-    @inproceedings{lacerra-etal-2020,
-        title = "{{CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation}}",
-        author = "Lacerra, Caterina and Bevilacqua, Michele and Pasini, Tommaso  and
-          Navigli, Roberto",
-        booktitle = "Proceedings of AAAI",
-        month = Feb,
-        year = "2020",
-        address = "New York, USA",
-        publisher = "AAAI",
+    Knowing the Most Frequent Sense (MFS) of a word has been proved to help Word Sense Disambiguation (WSD)
+    models significantly. However, the scarcity of sense-annotated data makes it difficult to induce a reliable
+    and high-coverage distribution of the meanings in a language vocabulary.
+    To address this issue, in this paper we present CluBERT, an automatic and multilingual approach for inducing
+    the distributions of word senses from a corpus of raw sentences.
+    Our experiments show that CluBERT learns distributions over English senses that are of higher quality than
+    those extracted by alternative approaches.
+    When used to induce the MFS of a lemma, CluBERT attains state-of-the-art results on the English Word Sense
+    Disambiguation tasks and helps to improve the disambiguation performance of two off-the-shelf WSD models.
+    Moreover, our distributions also prove to be effective in other languages, beating all their alternatives
+    for computing the MFS on the multilingual WSD tasks.
+    We release our sense distributions in five different languages at https://github.com/SapienzaNLP/clubert.
+  bibtex: |
+    @inproceedings{pasini-etal-2020,<br/>
+        title = {{CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages}},<br/>
+        author = {Pasini, Tommaso and Scozzafava, Federico, and Scarlini, Bianca},<br/>
+        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},<br/>
+        year = {2020},<br/>
+        month = {Jul}, <br/>
+        address = {Virtual},<br/>
+        publisher = {Association for Computational Linguistics}<br/>
     }

@@ -26,19 +26,3 @@
         doi = "10.18653/v1/P19-1069",
         pages = "699--709",
     }
--
-  layout: article
-  paper-type: article
-  selected: y
-  year: "2019"
-  img: aij2019
-  title: "Train-O-Matic: Supervised Word Sense Disambiguation withNo (Manual) Effort"
-  authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
-  journal: "Artificial Intelligence"
-  journal-url:
-  abstract: >
-    Word Sense Disambiguation (WSD) is the task of associating the correct meaning with a word in a given context. WSD provides explicit semantic information that is beneficial to several down stream applications, such as: question answering, semantic parsing and hypernym extraction. Unfortunately, WSD suffers from the well-known knowledge acquisition bottleneck problem: it is very expensive, in terms of both time and money, to acquire semantic annotations for a large number of sentences.
-    To address this blocking issue we present Train-O-Matic, a knowledge-based and language-independent approach that is able to provide millions of training instances annotated automatically with word meanings. The approach is fully automatic, i.e., no human intervention is required, and the only type of human knowledge used is a task-independent WordNet-like resource.
-    Moreover, as the sense distribution in the training set is pivotal to boosting the performance of WSD systems, we also present two unsupervised and language-independent methods that automatically induce a sense distribution when given a simple corpus of sentences. We show that when the learned distributions are taken into account for generating the training sets, the performance of supervised methods is further enhanced.
-    Experiments have proven that Train-O-Matic on its own, and also coupled with word sense distribution learning methods, lead a supervised system to achieve state-of-the-art performance consistently across gold standard datasets and languages. Importantly, we show how our sense distribution learning techniques aid Train-O-Matic to scale well over domains, without any extra human effort.
-    To encourage future research, we release all the training sets in 5 different languages and the sense distributions for each domain of SemEval 2013 and SemEval 2015 at http://trainomatic.org.
