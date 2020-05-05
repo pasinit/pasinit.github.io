@@ -7,7 +7,7 @@
   title: "CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages"
   authors: "<strong>Tommaso Pasini</strong>, Federico Scozzafava and Bianca Scarlini"
   booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.
-  doc-url:
+  doc-url: https://www.researchgate.net/publication/341151563_CluBERT_A_Cluster-Based_Approach_for_Learning_Sense_Distributions_in_Multiple_Languages
   venue: conference\
   abstract: >
     Knowing the Most Frequent Sense (MFS) of a word has been proved to help Word Sense Disambiguation (WSD)
@@ -35,7 +35,7 @@
 -
   layout: paper
   paper-type: inproceedings
-  selected: n
+  selected: y
   year: 2020
   img: LREC2020
   title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
@@ -67,7 +67,7 @@
 -
   layout: paper
   paper-type: inproceedings
-  selected: n
+  selected: y
   year: 2020
   img: LREC2020
   title: "A Short Survey on Sense-Annotated Corpora"
