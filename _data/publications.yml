@@ -87,7 +87,7 @@
         address = "Virtual",<br/>
         publisher = "LRE"<br/>
     }
-    
+
 -
   layout: paper
   paper-type: inproceedings

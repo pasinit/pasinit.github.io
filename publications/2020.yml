@@ -2,6 +2,96 @@
   layout: paper
   paper-type: inproceedings
   selected: y
+  year: 2020
+  img: acl2020
+  title: "CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages"
+  authors: "<strong>Tommaso Pasini</strong>, Federico Scozzafava and Bianca Scarlini"
+  booktitle: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics.
+  doc-url:
+  venue: conference\
+  abstract: >
+    Knowing the Most Frequent Sense (MFS) of a word has been proved to help Word Sense Disambiguation (WSD)
+    models significantly. However, the scarcity of sense-annotated data makes it difficult to induce a reliable
+    and high-coverage distribution of the meanings in a language vocabulary.
+    To address this issue, in this paper we present CluBERT, an automatic and multilingual approach for inducing
+    the distributions of word senses from a corpus of raw sentences.
+    Our experiments show that CluBERT learns distributions over English senses that are of higher quality than
+    those extracted by alternative approaches.
+    When used to induce the MFS of a lemma, CluBERT attains state-of-the-art results on the English Word Sense
+    Disambiguation tasks and helps to improve the disambiguation performance of two off-the-shelf WSD models.
+    Moreover, our distributions also prove to be effective in other languages, beating all their alternatives
+    for computing the MFS on the multilingual WSD tasks.
+    We release our sense distributions in five different languages at https://github.com/SapienzaNLP/clubert.
+  bibtex: |
+    @inproceedings{pasini-etal-2020,<br/>
+        title = {{CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages}},<br/>
+        author = {Pasini, Tommaso and Scozzafava, Federico, and Scarlini, Bianca},<br/>
+        booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},<br/>
+        year = {2020},<br/>
+        month = {Jul}, <br/>
+        address = {Virtual},<br/>
+        publisher = {Association for Computational Linguistics}<br/>
+    }
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: n
+  year: 2020
+  img: LREC2020
+  title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of AAAI.
+  doc-url: http://trainomatic.org/data/LREC_2020_Scarlinietal.pdf
+  venue: conference\
+  abstract: >
+    The knowledge acquisition bottleneck problem dramatically hampers the creation of sense-annotated
+    data for Word Sense Disambiguation (WSD). Sense-annotated data are scarce for English and almost absent
+    for other languages. This limits the range of action of deeplearning approaches, which today are at the
+    base of any NLP task and are hungry for data. We mitigate this issue and encourage further research in
+    multilingual WSD by releasing to the NLP community five large datasets annotated with word senses in five
+    different languages, namely, English, French, Italian, German and Spanish, and 5 distinct datasets in
+    English, each for a different semantic domain. We show that supervised WSD models trained on our data
+    attain higher performance than when trained on other automaticallycreated corpora. We release all our
+    data containing more than 15 million annotated instances in 5 different languages at http://trainomatic.org/onesec.
+  bibtex: |
+    @inproceedings{scarlini-etal-2020,<br/>
+        title = {{Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains}},<br/>
+        author = "Scarlini, Bianca and Pasini, Tommaso and Navigli, Roberto",<br/>
+        booktitle = "Proceedings of LREC",<br/>
+        month = May,<br/>
+        year = "2020",<br/>
+        address = "Virtual",<br/>
+        publisher = "LRE"<br/>
+    }
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: n
+  year: 2020
+  img: LREC2020
+  title: "A Short Survey on Sense-Annotated Corpora"
+  authors: "<strong>Tommaso Pasini</strong> and Jose Camacho-Collados"
+  booktitle: Proceedings of AAAI.
+  doc-url: https://arxiv.org/abs/1802.04744
+  venue: conference\
+  abstract: >
+    Large sense-annotated datasets are increasingly necessary for training deep supervised systems in Word Sense Disambiguation. However, gathering high-quality sense-annotated data for as many instances as possible is a laborious and expensive task. This has led to the proliferation of automatic and semi-automatic methods for overcoming the so-called knowledge-acquisition bottleneck. In this short survey we present an overview of sense-annotated corpora, annotated either manually- or (semi)automatically, that are currently available for different languages and featuring distinct lexical resources as inventory of senses, i.e. WordNet, Wikipedia, BabelNet. Furthermore, we provide the reader with general statistics of each dataset and an analysis of their specific features.
+  bibtex: |
+    @inproceedings{pasini-and-camachocollados-2020,<br/>
+        title = {{A Short Survey on Sense-Annotated Corpora}},<br/>
+        author = {Pasini, Tommaso and Camacho-Collados, Jose},<br/>
+        booktitle = "Proceedings of LREC",<br/>
+        month = May,<br/>
+        year = "2020",<br/>
+        address = "Virtual",<br/>
+        publisher = "LRE"<br/>
+    }
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
   year: 2019
   img: acl2019
   title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
