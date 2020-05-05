@@ -160,8 +160,8 @@
   layout: article
   paper-type: article
   selected: y
-  year: "2019"
-  img: aij2019
+  year: "2020"
+  img: aij2020
   title: "Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort"
   authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
   journal: "Artificial Intelligence Journal"
@@ -172,7 +172,7 @@
         author = "{Pasini, Tommaso and Navigli, Roberto}",<br/>
         journal = "{Artificial Intelligence}",<br/>
         volume = {279},<br/>
-        pages = {103215},<br/>
+        pages = {103--215},<br/>
         year = {2020},<br/>
         publisher = {Elsevier}<br/>
     }
