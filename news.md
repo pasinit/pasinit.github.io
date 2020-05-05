@@ -2,7 +2,7 @@
 - **05-05-2020**: [CluBERT](https://github.com/SapienzaNLP/clubert) accepted at [ACL2020](https://acl2020.org/). CluBERT is a 
 cluster-based approach for automatically inducing the distribution of word senses from a corpus of raw texts.
 We tested on 5 different languages, i.e., English, French, German, Italian and Spanish and release the distributions
-of lexemes in the test sets at https://github.com/SapienzaNLP/clubert. 
+of lexemes in the test sets at [https://github.com/SapienzaNLP/clubert](https://github.com/SapienzaNLP/clubert). 
 More data will be soon released!
 - **12-02-2020**: [Poster](papers/SensEmBERT_aaai2020_poster.pdf) and [slides](papers/SensEmBERT_aaai2020_slides.pdf) of [SensEmBERT](papers/scarlini_etal_aaai2020.pdf) AAAI2020 paper.
 - **12-02-2020**: [Poster](papers/csi_aaai2020_poster.pdf) of [CSI](papers/lacerra_etal_aaai2020.pdf) AAAI2020 paper.
