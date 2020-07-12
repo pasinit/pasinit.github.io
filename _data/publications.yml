@@ -1,5 +1,5 @@
 -
-  layout: paper
+    layout: paper
     paper-type: inproceedings
     selected: y
     year: 2020
@@ -34,7 +34,8 @@
         url       = {https://doi.org/10.24963/ijcai.2020/687},<br/>
       }
 
-- layout: paper
+-
+    layout: paper
     paper-type: inproceedings
     selected: y
     year: 2020
