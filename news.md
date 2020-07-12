@@ -1,4 +1,8 @@
 # News
+- **12-07-2020**: A survey on [The Knowledge Acquisition Bottleneck Problem in Multilingual Word Sense Disambiguation](https://www.ijcai.org/Proceedings/2020/687)
+is now published in the [IJCAI2020](https://ijcai20.org/) proceedings.
+- **12-07-2020**: [MuLaN](https://github.com/SapienzaNLP/mulan), a multilingual approach to transfer semantic annotations
+ from English to other languages (tested in DE ES FR and IT) has been published at [IJCAI2020](https://ijcai20.org/).
 - **05-05-2020**: [CluBERT](https://github.com/SapienzaNLP/clubert) accepted at [ACL2020](https://acl2020.org/). CluBERT is a 
 cluster-based approach for automatically inducing the distribution of word senses from a corpus of raw texts.
 We tested on 5 different languages, i.e., English, French, German, Italian and Spanish and release the distributions
