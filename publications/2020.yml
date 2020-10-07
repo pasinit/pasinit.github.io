@@ -2,6 +2,69 @@
   layout: paper
   paper-type: inproceedings
   selected: y
+  year: 2020
+  img: ijcai2020
+  title: "With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation"
+  authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
+  booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
+  doc-url:
+  venue: conference\
+  abstract: >
+    Contextualized word embeddings have been employed effectively across several tasks in Natural Language Processing,
+    as they have proved to carry useful semantic information.
+    However, it is still hard to link them to structured sources of knowledge.
+    In this paper we present ARES (context-AwaRe Embeddings of Senses), a semi-supervised approach to producing sense
+    embeddings for the lexical meanings within a lexical knowledge base that lie in a space that is comparable to that
+    of contextualized word vectors.
+    ARES representations enable a simple 1-Nearest-Neighbour algorithm to outperform state-of-the-art models, not only
+    in the English Word Sense Disambiguation task, but also in the multilingual one, whilst training on sense-annotated
+    data in English only.
+    We further assess the quality of our embeddings in the Word-in-Context task, where, when used as an external source
+    of knowledge, they consistently improve the performance of a neural model, leading it to compete with other more
+    complex architectures.
+    ARES embeddings for all WordNet concepts and the automatically-extracted contexts used for creating the sense
+    representations are freely available at http://sensembert.org/ares.
+  bibtex: |
+    @inproceedings{scarlini-et-al-2020-ares,
+      title     = {{With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation}},<br/>
+      author    = {Scarlini, Bianca and, Pasini, Tommaso and Navigli, Roberto}, <br/>
+      booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP-2020)},<br/>
+      publisher = {Association for Computational Linguistics},<br/>
+      year      = {2020},<br/>
+    }
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: ijcai2020
+  title: "XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization"
+  authors: "Alessandro Raganato*, <strong>Tommaso Pasini*</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
+  booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
+  doc-url:
+  venue: conference\
+  abstract: >
+    The ability to correctly model distinct meanings of a word is crucial for the effectiveness of semantic representation techniques.
+    However, most existing evaluation benchmarks for assessing this criterion are tied to sense inventories (usually WordNet), restricting their usage to a small subset of knowledge-based representation techniques.
+    The Word-in-Context dataset (WiC) addresses the dependence on sense inventories by reformulating the standard disambiguation task as a binary classification problem; but, it is limited to the English language.
+    We put forward a large multilingual benchmark, XL-WiC, featuring gold standards in 12 new languages from varied language families and with different degrees of resource availability, opening room for evaluation scenarios such as zero-shot cross-lingual transfer.
+    We perform a series of experiments to determine the reliability of the datasets and to set performance baselines for several recent contextualized multilingual models.
+    Experimental results show that even when no tagged instances are available for a target language, models trained solely on the English data can attain competitive performance in the task of distinguishing different meanings of a word, even for distant languages.
+    XL-WiC is available at https://pilehvar.github.io/xlwic/.
+  bibtex: |
+    @inproceedings{raganato-et-al-2020-xlwic,
+      title     = {{XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization}},<br/>
+      author    = {Raganato, Alessandro and Pasini, Tommaso and Camacho-Collados, Jose and Taher Pilehvar, Mohammad}, <br/>
+      booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP-2020)},<br/>
+      publisher = {Association for Computational Linguistics},<br/>
+      year      = {2020},<br/>
+    }
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
   year: 2019
   img: acl2019
   title: "SensEmBERT:Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
