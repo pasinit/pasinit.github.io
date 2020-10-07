@@ -3,6 +3,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 10
   img: EMNLP2020
   title: "With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -37,6 +38,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 10
   img: EMNLP2020
   title: "XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization"
   authors: "Alessandro Raganato, <strong>Tommaso Pasini</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
@@ -65,6 +67,7 @@
     paper-type: inproceedings
     selected: y
     year: 2020
+    month: 7
     img: ijcai2020
     title: "The Knowledge Acquisition Bottleneck Problem in Multilingual Word Sense Disambiguation"
     authors: "<strong>Tommaso Pasini</strong>"
@@ -101,6 +104,7 @@
     paper-type: inproceedings
     selected: y
     year: 2020
+    month: 7
     img: ijcai2020
     title: "MuLaN: Multilingual Label propagatioN for Word Sense Disambiguation"
     authors: "Edoardo Barba, Luigi Procopio, Niccolò Campolungo <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -135,6 +139,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 4
   img: acl2020
   title: "CluBERT: A Cluster-Based Approach for Learning Sense Distributions in Multiple Languages"
   authors: "<strong>Tommaso Pasini</strong>, Federico Scozzafava and Bianca Scarlini"
@@ -169,6 +174,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 3
   img: LREC2020
   title: "Sense-Annotated Corpora for Word Sense Disambiguation in Multiple Languages and Domains"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -201,6 +207,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 3
   img: LREC2020
   title: "A Short Survey on Sense-Annotated Corpora"
   authors: "<strong>Tommaso Pasini</strong> and Jose Camacho-Collados"
@@ -225,6 +232,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 2
   img: aaai2020
   title: "SensEmBERT: Context-Enhanced Sense Embeddings for Multilingual Word Sense Disambiguation"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -259,6 +267,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
+  month: 2
   img: aaai2020
   title: "CSI: A Coarse Sense Inventory for 85% Word Sense Disambiguation"
   authors: "Caterina Lacerra, Michele Bevilacqua, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -293,6 +302,7 @@
   paper-type: article
   selected: y
   year: "2020"
+  month: 1
   img: aij2020
   title: "Train-O-Matic: Supervised Word Sense Disambiguation with No (Manual) Effort"
   authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
