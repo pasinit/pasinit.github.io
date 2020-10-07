@@ -13,7 +13,6 @@
     Contextualized word embeddings have been employed effectively across several tasks in Natural Language Processing,
     as they have proved to carry useful semantic information.
     However, it is still hard to link them to structured sources of knowledge.
-    In this paper we present ARES (context-AwaRe Embeddings of Senses), a semi-supervised approach to producing sense
     embeddings for the lexical meanings within a lexical knowledge base that lie in a space that is comparable to that
     of contextualized word vectors.
     ARES representations enable a simple 1-Nearest-Neighbour algorithm to outperform state-of-the-art models, not only
@@ -40,7 +39,7 @@
   year: 2020
   img: EMNLP2020
   title: "XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization"
-  authors: "Alessandro Raganato*, <strong>Tommaso Pasini*</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
+  authors: "Alessandro Raganato, <strong>Tommaso Pasini</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
   booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
   doc-url:
   venue: conference\
