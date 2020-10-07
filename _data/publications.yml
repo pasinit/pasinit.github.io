@@ -330,6 +330,7 @@
   paper-type: inproceedings
   selected: y
   year: 2019
+  month: 3
   img: acl2019
   title: "Just “OneSeC” for Producing Multilingual Sense-Annotated Data"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -358,6 +359,7 @@
   paper-type: inproceedings
   selected: y
   year: 2017
+  month: 9
   img: emnlp2017
   title: "Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data"
   authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -385,6 +387,7 @@
   paper-type: inproceedings
   selected: y
   year: 2014
+  month: 3
   img: acl2014
   title: "Two Is Bigger (and Better) Than One: the Wikipedia Bitaxonomy Project."
   authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -423,6 +426,7 @@
   paper-type: inproceedings
   selected: y
   year: 2018
+  month: 4
   img: acl2018
   title: "SemEval-2018 task 9: Hypernym discovery."
   authors: "Jose Camacho-Collados, Claudio Delli Bovi, Luis Espinosa-Anke, Sergio Oramas, <strong>Tommaso Pasini</strong>, Enrico Santus, Vered Shwartz, Roberto Navigli, Horacio Saggio"
@@ -453,6 +457,7 @@
   paper-type: inproceedings
   selected: y
   year: 2018
+  month: 2
   img: aaai2018
   title: "Two Knowledge-based Methods for High-Performance Sense Distribution Learning"
   authors: "<strong>Tommaso Pasini</strong> and Roberto Navigli"
@@ -473,6 +478,7 @@
   paper-type: inproceedings
   selected: y
   year: 2018
+  month: 3
   img: aaai2018
   title: "Huge Automatically Extracted Training Sets for Multilingual Word Sense Disambiguation"
   authors: "<strong>Tommaso Pasini</strong>, Francesco Maria Elia and Roberto Navigli"
@@ -503,6 +509,7 @@
   paper-type: article
   selected: y
   year: "2016"
+  month: 1
   img: aij2016
   title: "MultiWiBi: The multilingual Wikipedia bitaxonomy project"
   authors: "Tiziano Flati, Daniele Vannella, <strong>Tommaso Pasini</strong> and Roberto Navigli"
