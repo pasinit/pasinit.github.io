@@ -25,7 +25,7 @@
     ARES embeddings for all WordNet concepts and the automatically-extracted contexts used for creating the sense
     representations are freely available at http://sensembert.org/ares.
   bibtex: |
-    @inproceedings{scarlini-et-al-2020-ares,
+    @inproceedings{scarlini-et-al-2020-ares,<br/>
       title     = {{With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation}},<br/>
       author    = {Scarlini, Bianca and, Pasini, Tommaso and Navigli, Roberto}, <br/>
       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP-2020)},<br/>
@@ -53,7 +53,7 @@
     Experimental results show that even when no tagged instances are available for a target language, models trained solely on the English data can attain competitive performance in the task of distinguishing different meanings of a word, even for distant languages.
     XL-WiC is available at https://pilehvar.github.io/xlwic/.
   bibtex: |
-    @inproceedings{raganato-et-al-2020-xlwic,
+    @inproceedings{raganato-et-al-2020-xlwic,<br/>
       title     = {{XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization}},<br/>
       author    = {Raganato, Alessandro and Pasini, Tommaso and Camacho-Collados, Jose and Taher Pilehvar, Mohammad}, <br/>
       booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP-2020)},<br/>
