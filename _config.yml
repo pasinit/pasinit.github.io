@@ -287,7 +287,7 @@ plugins:
 
 # theme: jekyll-theme-hydejack
 #remote_theme: hydecorp/hydejack@v8
-remote_theme: hydecorp/hydejack@v9.0.5
+remote_theme: hydecorp/hydejack@v9
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
