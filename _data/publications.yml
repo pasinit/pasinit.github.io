@@ -3,7 +3,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
-  img: ijcai2020
+  img: EMNLP2020
   title: "With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
   booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
@@ -38,7 +38,7 @@
   paper-type: inproceedings
   selected: y
   year: 2020
-  img: ijcai2020
+  img: EMNLP2020
   title: "XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization"
   authors: "Alessandro Raganato*, <strong>Tommaso Pasini*</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
   booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
