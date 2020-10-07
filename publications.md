@@ -9,8 +9,8 @@ title: Publications
     |{{ hash.year }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###
   {% endfor %}
 {% endcapture %}
-{% assign sortedhashes = posts | split: '|' | sort %}
-{% for hash in sortedhashes %}
+{% assign sortedhashes = posts | split: '|' | sort | reverse %}
+{% for hash in posts %}
   {% assign hashitems = hash | split: '###' %}
   [comment]: <> {{ hashitems[0] }}
   {% if hashitems[4] == "" or hashitems[4] == nil %}
