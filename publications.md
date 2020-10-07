@@ -6,7 +6,7 @@ title: Publications
 {% assign hashes = site.data.publications %}
 {% capture posts %}
   {% for hash in hashes %}
-    |{{ hash.year }}###{{ hash.title }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###
+    |{{ hash.year }}###{{ hash.month }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###
   {% endfor %}
 {% endcapture %}
 {% assign sortedhashes = posts | split: '|' | sort | reverse %}
