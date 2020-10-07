@@ -13,23 +13,23 @@ title: Publications
 {% for hash in sortedhashes %}
   {% assign hashitems = hash | split: '###' %}
   [comment]: <> {{ hashitems[0] }}
-  {% if hashitems[4] == "" or hashitems[4] == nil %}
+  {% if hashitems[5] == "" or hashitems[5] == nil %}
     {% break %}
   {% endif %}
 
-  {% if hashitems[1] == "inproceedings" and hashitems[2] != "" %}
-  * <a href="{{ hashitems[2] }}">{{ hashitems[4] }}</a>
-  {% elsif hashitems[1] == "article" and hashitems[3] != "" %}
-  * <a href="{{ hashitems[3] }}">{{ hashitems[4] }}</a>
+  {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
+  * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
+  {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
+  * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% else %}
-  * <a href="{{ hashitems[8] }}">{{ hashitems[4] }}</a>
+  * <a href="{{ hashitems[8] }}">{{ hashitems[5] }}</a>
   {% endif %}<br/>
   
-  {{ hashitems[7] }}.
-  {% if hashitems[1] == "inproceedings" %}*In: {{ hashitems[5] }}*, {{ hashitems[0]}}.
-  {% elsif hashitems[1] == "article" %}*{{ hashitems[6] }}*, {{ hashitems[0]}}.
+  {{ hashitems[8] }}.
+  {% if hashitems[2] == "inproceedings" %}*In: {{ hashitems[6] }}*, {{ hashitems[0]}}.
+  {% elsif hashitems[2] == "article" %}*{{ hashitems[7] }}*, {{ hashitems[0]}}.
   {% endif %}
-  {% if hashitems[9] != "" %}
+  {% if hashitems[10] != "" %}
  <code style="
      background: #f7f7f7;
      border-radius: 0.35em;
@@ -38,7 +38,7 @@ title: Publications
      display: block;
      overflow: scroll;
      white-space: nowrap;
- ">{{ hashitems[9] | linebreaksbr }}</code>
+ ">{{ hashitems[10] | linebreaksbr }}</code>
   {% endif %}
 
 {% endfor %}
