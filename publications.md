@@ -9,7 +9,7 @@ title: Publications
     |{{ hash.year }}###{{ hash.title }}###{{ hash.paper-type }}###{{ hash.doc-url }}###{{ hash.journal-url }}###{{ hash.title }}###{{ hash.booktitle }}###{{ hash.journal }}###{{ hash.authors }}###{{ hash.code }}###{{ hash.bibtex }}###
   {% endfor %}
 {% endcapture %}
-{{ posts }}
+
 {% assign sortedhashes = posts | split: '|' | sort | reverse %}
 {% for hash in sortedhashes %}
   {% assign hashitems = hash | split: '###' %}
