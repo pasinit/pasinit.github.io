@@ -18,7 +18,7 @@ title: Publications
     {% break %}
   {% endif %}
     hashitems[2] {{ hashitems[2] }}
-    {% assign x = hashitems[3] != "" %}
+    {% assign x = hashitems[3] != '' %}
     hashitems[3] {{ hashitems[3] }} 
     porcodio {{ x }} 
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
