@@ -18,7 +18,7 @@ title: Publications
     {% break %}
   {% endif %}
     hashitems[2] {{ hashitems[2] }}
-    {% if hashitems[3] == '' %}
+    {% if hashitems[3] == ' ' %}
         {% assign hashitems[3] = "cane" %}
     {% endif %} 
     {% assign x = hashitems[3] != '' %}
