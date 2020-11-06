@@ -8,7 +8,7 @@
   title: "With More Contexts Comes Better Performance: Contextualized Sense Embeddings for All-Round Word SenseDisambiguation"
   authors: "Bianca Scarlini, <strong>Tommaso Pasini</strong> and Roberto Navigli"
   booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
-  doc-url:
+  doc-url: http://sensembert.org/resources/scarlini_etal_emnlp2020.pdf
   venue: conference\
   abstract: >
     Contextualized word embeddings have been employed effectively across several tasks in Natural Language Processing,
@@ -43,7 +43,7 @@
   title: "XL-WiC: A Multilingual Benchmarkfor Evaluating Semantic Contextualization"
   authors: "Alessandro Raganato, <strong>Tommaso Pasini</strong>, Jose Camacho-Collados and Mohammad Taher Pilehvar"
   booktitle: Proceedings of the Conference on Epirical Methods for Natural Language Processing (EMNLP-2020).
-  doc-url:
+  doc-url: https://arxiv.org/abs/2010.06478
   venue: conference\
   abstract: >
     The ability to correctly model distinct meanings of a word is crucial for the effectiveness of semantic representation techniques.
