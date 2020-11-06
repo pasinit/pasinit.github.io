@@ -18,12 +18,12 @@ title: Publications
     {% break %}
   {% endif %}
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
-  * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
+  * <a target="_blank" href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
-  * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
+  * <a target="_blank" href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% else %}
   {%- comment -%}
-  * <a href="{{ hashitems[8] }}">{{ hashitems[5] }}</a>
+  * <a target="_blank" href="{{ hashitems[8] }}">{{ hashitems[5] }}</a>
   {%- endcomment -%}
   {{ hashitems[5] }}
   {% endif %}<br/>
