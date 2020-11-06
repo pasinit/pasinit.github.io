@@ -18,6 +18,7 @@ title: Publications
     {% break %}
   {% endif %}
     hashitems[2] {{ hashitems[2] }}
+    {% assign hashitems[3] = "cane" %}
     {% if hashitems[3] == ' ' %}
         {% assign hashitems[3] = "cane" %}
     {% else %}
@@ -25,7 +26,7 @@ title: Publications
     {% endif %} 
     {% assign x = hashitems[3] != ' ' %}
     hashitems[3] {{ hashitems[3] }} 
-    porcodio4 {{ x }} 
+    porcodio5 {{ x }} 
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
   * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
