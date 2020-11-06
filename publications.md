@@ -21,9 +21,9 @@ title: Publications
     {% if hashitems[3] == ' ' %}
         {% assign hashitems[3] = "cane" %}
     {% endif %} 
-    {% assign x = hashitems[3] != '' %}
+    {% assign x = hashitems[3] != ' ' %}
     hashitems[3] {{ hashitems[3] }} 
-    porcodio2 {{ x }} 
+    porcodio3 {{ x }} 
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
   * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
