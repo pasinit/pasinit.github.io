@@ -20,7 +20,7 @@ title: Publications
     hashitems[2] {{ hashitems[2] }}
     {% assign x = hashitems[3] != '' %}
     hashitems[3] {{ hashitems[3] }} 
-    porcodio {{ x }} 
+    porcodio2 {{ x }} 
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
   * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
