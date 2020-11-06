@@ -22,7 +22,9 @@ title: Publications
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
   * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% else %}
-  #* <a href="{{ hashitems[8] }}">{{ hashitems[5] }}</a>
+  {%- comment -%}
+  * <a href="{{ hashitems[8] }}">{{ hashitems[5] }}</a>
+  {%- endcomment -%}
   {{ hashitems[5] }}
   {% endif %}<br/>
   
