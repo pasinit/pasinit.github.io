@@ -18,7 +18,7 @@ title: Publications
     {% break %}
   {% endif %}
     hashitems[2] {{ hashitems[2] }}
-    hashitems[3] {{ hashitems[3] }} {{ hashitems[3] }} != ""
+    hashitems[3] {{ hashitems[3] }} {{ hashitems[3] != "" }} 
   {% if hashitems[2] == "inproceedings" and hashitems[3] != "" %}
   * <a href="{{ hashitems[3] }}">{{ hashitems[5] }}</a>
   {% elsif hashitems[2] == "article" and hashitems[4] != "" %}
