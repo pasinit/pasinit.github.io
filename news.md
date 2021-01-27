@@ -1,6 +1,8 @@
 # News
-- **01-01-2021** New multilingual evaluation suite for Word Sense Disambiguation! Meet [XL-WSD](https://sapienzanlp.github.io/xl-wsd/)
-- **01-11-2020** New multilingual evaluation suite for the Word in Context task. Mett [XL-WiC](https://pilehvar.github.io/xlwic/)
+- **01-01-2021** New multilingual evaluation suite for Word Sense Disambiguation! Meet [XL-WSD](https://sapienzanlp.github.io/xl-wsd/), 
+accepted at AAAI2021.
+- **01-11-2020** New multilingual evaluation suite for the Word in Context task. Meet [XL-WiC](https://pilehvar.github.io/xlwic/), accepted
+at EMNLP2020.
 - **01-11-2020** New English and Multilingual embeddings for word senses, i.e., all WordNet nodes and their corresponding 
 in other languages! All thanks to [ARES](https://www.aclweb.org/anthology/2020.emnlp-main.285.pdf), check it out at EMNLP2020!
 - **12-07-2020**: A survey on [The Knowledge Acquisition Bottleneck Problem in Multilingual Word Sense Disambiguation](https://www.ijcai.org/Proceedings/2020/687)
