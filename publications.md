@@ -10,6 +10,13 @@ title: Publications
   {% endfor %}
 {% endcapture %}
 
+{% capture conf_names %}
+{% for hash in hashes %}
+    |{{ hash.shortname }}
+  {% endfor %}
+{% endcapture %}
+
+
 {% assign sortedhashes = posts | split: '|' | sort | reverse %}
 {% for hash in sortedhashes %}
   {% assign hashitems = hash | split: '###' %}
