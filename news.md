@@ -4,7 +4,7 @@ accepted at AAAI2021.
 - **01-11-2020** New multilingual evaluation suite for the Word in Context task. Meet [XL-WiC](https://pilehvar.github.io/xlwic/), accepted
 at EMNLP2020.
 - **01-11-2020** New English and Multilingual embeddings for word senses, i.e., all WordNet nodes and their corresponding 
-in other languages! All thanks to [ARES](https://www.aclweb.org/anthology/2020.emnlp-main.285.pdf), check it out at EMNLP2020!
+in other languages! All thanks to [ARES](http://sensembert.org/#ares), check it out at EMNLP2020!
 - **12-07-2020**: A survey on [The Knowledge Acquisition Bottleneck Problem in Multilingual Word Sense Disambiguation](https://www.ijcai.org/Proceedings/2020/687)
 is now published in the [IJCAI2020](https://ijcai20.org/) proceedings.
 - **12-07-2020**: [MuLaN](https://github.com/SapienzaNLP/mulan), a multilingual approach to transfer semantic annotations
